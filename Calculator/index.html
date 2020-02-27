@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Vue.js App</title>
+  </head>
+  <body>
+  <div id="app">
+
+    Informe o valor 1: <input v-model.number="value1" placeholder="Informe um valor"> <br/><br/>
+    Informe o valor 2: <input v-model.number="value2" placeholder="Informe um valor"> <br/><br/>
+
+    <button @click='somar()'> Somar </button>
+    <button @click='subtrair()'> Subtrair </button>
+    <button @click='multiplicar()'> Multiplicar </button>
+    <button @click='dividir()'> Dividir </button> -->
+    <br/>
+    <br/>
+    Resultado {{result}} 
+   
+    </div>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript">
+       
+      const app = new Vue({
+        el: '#app',
+
+        data: {
+          result: null,
+          value1: null,
+          value2: null
+       },
+	   
+       methods: {
+        postar(url) {
+          axios.put(url, {
+            "value1" : this.value1,
+            "value2" : this.value2,
+          }, {
+            headers: {
+              
+            }
+		      })
+          .then(response => { this.result = response.data })
+          .catch(e => {
+            console.log(e)
+          })
+        },
+        somar(){
+          this.postar("http://127.0.0.1:5000/api/soma")
+        },
+        subtrair(){
+          this.postar("http://127.0.0.1:5000/api/sub")
+        },
+        multiplicar(){
+          this.postar("http://127.0.0.1:5000/api/multi")
+        }, 
+        dividir(){
+          if (this.value1 != 0)
+            this.postar("http://127.0.0.1:5000/api/divi")
+        }
+
+       }
+     });
+
+    </script>
+  </body>
+</html>

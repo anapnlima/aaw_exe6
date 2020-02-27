@@ -1,0 +1,14 @@
+E:\AnaPaula\pos_puc\2s_arquitetura_web\Calculator\bin\Debug\netcoreapp2.2\Calculator.deps.json
+E:\AnaPaula\pos_puc\2s_arquitetura_web\Calculator\bin\Debug\netcoreapp2.2\Calculator.runtimeconfig.json
+E:\AnaPaula\pos_puc\2s_arquitetura_web\Calculator\bin\Debug\netcoreapp2.2\Calculator.runtimeconfig.dev.json
+E:\AnaPaula\pos_puc\2s_arquitetura_web\Calculator\bin\Debug\netcoreapp2.2\Calculator.dll
+E:\AnaPaula\pos_puc\2s_arquitetura_web\Calculator\bin\Debug\netcoreapp2.2\Calculator.pdb
+E:\AnaPaula\pos_puc\2s_arquitetura_web\Calculator\obj\Debug\netcoreapp2.2\Calculator.csprojAssemblyReference.cache
+E:\AnaPaula\pos_puc\2s_arquitetura_web\Calculator\obj\Debug\netcoreapp2.2\Calculator.csproj.CoreCompileInputs.cache
+E:\AnaPaula\pos_puc\2s_arquitetura_web\Calculator\obj\Debug\netcoreapp2.2\Calculator.RazorAssemblyInfo.cache
+E:\AnaPaula\pos_puc\2s_arquitetura_web\Calculator\obj\Debug\netcoreapp2.2\Calculator.RazorAssemblyInfo.cs
+E:\AnaPaula\pos_puc\2s_arquitetura_web\Calculator\obj\Debug\netcoreapp2.2\Calculator.AssemblyInfoInputs.cache
+E:\AnaPaula\pos_puc\2s_arquitetura_web\Calculator\obj\Debug\netcoreapp2.2\Calculator.AssemblyInfo.cs
+E:\AnaPaula\pos_puc\2s_arquitetura_web\Calculator\obj\Debug\netcoreapp2.2\Calculator.RazorTargetAssemblyInfo.cache
+E:\AnaPaula\pos_puc\2s_arquitetura_web\Calculator\obj\Debug\netcoreapp2.2\Calculator.dll
+E:\AnaPaula\pos_puc\2s_arquitetura_web\Calculator\obj\Debug\netcoreapp2.2\Calculator.pdb
